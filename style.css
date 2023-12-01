@@ -1,0 +1,136 @@
+/* Reset de margens e preenchimentos padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo para o fundo branco */
+body {
+  background: linear-gradient(to bottom, #f5f2f2, #080808);
+  font-weight: bold; /* Corrija a propriedade font */
+}
+
+/* Centralizar conteúdo verticalmente e horizontalmente */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+aside {
+  padding: 20px;
+  background: #f7efef;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+}
+
+h2 span {
+  color: #030303;
+}
+
+h3 {
+  color: #666666;
+  margin-top: 10px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+input[type="button"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #999999;
+  border-radius: 5px;
+}
+
+/* Outros estilos do CSS que você já possui */
+
+article img.responsive-image {
+  border-radius: 10%;
+  max-width: 100%;
+  height: auto;
+  margin-left: 20px;
+}
+
+input[type="submit"],
+input[type="button"] {
+  background-color: #333333;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Media query para telas menores, como smartphones */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    align-items: center; /* Adicione esta linha para centralizar verticalmente */
+  }
+
+  aside {
+    width: 100%; /* Altere a largura para ocupar 100% da largura da tela */
+    margin-top: 20px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="submit"],
+  input[type="button"] {
+    width: 100%;
+  }
+  
+  article img.responsive-image {
+    max-width: 80%; /* Centralize a imagem ajustando a largura máxima */
+  }
+}
+
+/* Restante do seu CSS */
+
+aside {
+  position: relative; /* Adicionar uma posição relativa para o elemento pai */
+  text-align: center; /* Centralizar o texto */
+}
+
+img.responsive-image {
+  display: block; /* Definir como bloco para centralizar horizontalmente */
+  margin: 0 auto; /* Centralizar horizontalmente */
+  border-radius: 10%; /* Borda arredondada */
+  max-width: 100%; /* Largura máxima para a imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  margin-top: 20px; /* Adicionar espaço superior para separar a imagem do texto */
+}
+
+/* Aumentar o tamanho da fonte para todos os elementos de texto */
+body {
+  font-size: 30px; /* Tamanho de fonte base */
+}
+
+h2 {
+  font-size: 40px; /* Aumentar o tamanho da fonte para títulos h2 */
+}
+
+h3 {
+  font-size: 30px; /* Aumentar o tamanho da fonte para títulos h3 */
+}
+
+/* Outros estilos do CSS */
+
+h2 {
+  font-size: 40px; /* Aumentar o tamanho da fonte para títulos h2 */
+}
+
+h3 {
+  font-size: 30px; /* Aumentar o tamanho da fonte para títulos h3 */
+}
+
+/* Outros estilos do CSS */
+
+/* Restante do CSS */
